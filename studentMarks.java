@@ -1,5 +1,5 @@
 
-public class studentMarks {
+public class StudentMarks {
   int English;
   int Maths;
   int Social;
@@ -13,7 +13,7 @@ public float avgMarks() {
 	return avgMarks;
 }
 public static void main(String[] args) {
-studentMarks student1 = new studentMarks();
+StudentMarks student1 = new StudentMarks();
 student1.English = 80;
 student1.Maths = 70;
 student1.Social = 74;
@@ -23,7 +23,7 @@ System.out.println("Sum: " + student1.sumMarks());
 System.out.println("Average marks of student1 :");
 System.out.println("Average: " + student1.avgMarks());
 
-studentMarks student2 = new studentMarks();
+StudentMarks student2 = new StudentMarks();
 student2.English = 90;
 student2.Maths = 85;
 student2.Social = 65;
